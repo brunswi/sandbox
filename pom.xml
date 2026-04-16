@@ -49,6 +49,7 @@
     <aem.sdk.api>2026.3.25194.20260330T181734Z-260300</aem.sdk.api>
     <aemanalyser.version>1.6.6</aemanalyser.version>
     <componentGroupName>Brunsi's Sandbox</componentGroupName>
+    <groovyConsole.version>19.0.8</groovyConsole.version>
   </properties>
   <build>
     <plugins>
@@ -523,6 +524,13 @@ Bundle-DocURL:
         <groupId>com.adobe.cq</groupId>
         <artifactId>core.wcm.components.core</artifactId>
         <version>${core.wcm.components.version}</version>
+      </dependency>
+      <!-- groovy -->
+      <dependency>
+        <groupId>be.orbinson.aem</groupId>
+        <artifactId>aem-groovy-console-all</artifactId>
+        <version>${groovyConsole.version}</version>
+        <type>zip</type>
       </dependency>
       <!-- Testing -->
       <dependency>

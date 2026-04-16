@@ -77,6 +77,13 @@
                             <type>zip</type>
                             <target>/apps/sandbox-packages/application/install</target>
                         </embedded>
+                        <!-- groovy -->
+                        <embedded>
+                            <groupId>be.orbinson.aem</groupId>
+                            <artifactId>aem-groovy-console-all</artifactId>
+                            <type>zip</type>
+                            <target>/apps/sandbox-vendor-packages/container/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -196,6 +203,11 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
-
+        <!-- groovy -->
+        <dependency>
+            <groupId>be.orbinson.aem</groupId>
+            <artifactId>aem-groovy-console-all</artifactId>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 </project>

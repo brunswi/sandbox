@@ -1,0 +1,9 @@
+{
+  "allowedGroups": [
+    "administrators"
+  ],
+  "allowedScheduledJobsGroups": [
+    "administrators"
+  ],
+  "vanityPathEnabled" : true
+}
