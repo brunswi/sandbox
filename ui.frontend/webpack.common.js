@@ -105,6 +105,10 @@ module.exports = {
         performance: true,
         providedExports: false,
         source: false,
-        warnings: true
+        warnings: true,
+        warningsFilter: [
+            /Could not find any files that matched the wildcard path/,
+            /Empty results for "import/
+        ]
     }
 };
