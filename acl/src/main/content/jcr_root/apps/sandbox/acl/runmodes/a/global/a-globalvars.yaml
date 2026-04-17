@@ -1,0 +1,9 @@
+- global_config:
+    vars:
+      - DEF DAM_MOUNT_POINT="/content/dam"
+      - DEF XF_MOUNT_POINT="/content/experience-fragments"
+      - DEF PROJECTS_MOUNT_POINT="/content/projects"
+      - DEF CONTENT_MOUNT_POINT="/content"
+      - DEF USER_GROUPS_MOUNT_POINT="/home/groups"
+
+      - DEF SANDBOX_FOLDER_NAME="sandbox"
