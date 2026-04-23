@@ -53,6 +53,7 @@
       <componentGroupName>Brunsi's Sandbox</componentGroupName>
       <acTool.version>4.1.0</acTool.version>
       <groovyConsole.version>19.0.8</groovyConsole.version>
+      <lombok.version>1.18.44</lombok.version>
    </properties>
    <build>
       <plugins>
@@ -527,6 +528,13 @@
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
             <version>${core.wcm.components.version}</version>
+         </dependency>
+         <!-- Lombok  -->
+         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
          </dependency>
          <!-- groovy -->
          <dependency>
