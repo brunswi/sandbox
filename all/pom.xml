@@ -104,6 +104,13 @@
                             <type>zip</type>
                             <target>/apps/sandbox-vendor-packages/application/install</target>
                         </embedded>
+                        <!-- HTTP Foundation -->
+                        <embedded>
+                            <groupId>org.kttn.aem</groupId>
+                            <artifactId>aem-http-foundation.core</artifactId>
+                            <type>jar</type>
+                            <target>/apps/sandbox-vendor-packages/application/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -248,6 +255,11 @@
             <artifactId>accesscontroltool-oakindex-package</artifactId>
             <type>zip</type>
             <classifier>cloud</classifier>
+        </dependency>
+        <!-- HTTP Foundation -->
+        <dependency>
+            <groupId>org.kttn.aem</groupId>
+            <artifactId>aem-http-foundation.core</artifactId>
         </dependency>
     </dependencies>
 </project>

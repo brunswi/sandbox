@@ -559,6 +559,13 @@
             <version>${acTool.version}</version>
             <classifier>cloud</classifier>
          </dependency>
+         <!-- HTTP Foundation -->
+         <dependency>
+            <groupId>org.kttn.aem</groupId>
+            <artifactId>aem-http-foundation.core</artifactId>
+            <version>0.9.1</version>
+            <scope>provided</scope>
+         </dependency>
          <!-- Testing -->
          <dependency>
             <groupId>org.junit</groupId>

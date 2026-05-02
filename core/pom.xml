@@ -95,14 +95,17 @@ Import-Package: javax.annotation;version=0.0.0,*
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- HTTP Foundation -->
+        <dependency>
+            <groupId>org.kttn.aem</groupId>
+            <artifactId>aem-http-foundation.core</artifactId>
+        </dependency>
+        <!-- Testing -->
         <dependency>
             <groupId>com.adobe.cq</groupId>
             <artifactId>core.wcm.components.core</artifactId>
             <scope>test</scope>
         </dependency>
-
-
-        <!-- Testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
