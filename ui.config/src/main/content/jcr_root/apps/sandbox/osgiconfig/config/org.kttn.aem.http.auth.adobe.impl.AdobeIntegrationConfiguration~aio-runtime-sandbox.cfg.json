@@ -1,0 +1,6 @@
+{
+  "clientId": "a1d5d172fa0c4e0e823ae1360d87ce90",
+  "clientSecret": "$[secret:aio.runtime.client.secret]",
+  "scopes": "openid,AdobeID,read_organizations",
+  "org.id.header.value": "C8C1552962AB27F50A495FFD@AdobeOrg"
+}

@@ -1,0 +1,5 @@
+{
+  "credential.id": "aio-shared-sandbox",
+  "set.api.key.header": true,
+  "org.id.header.value": "C8C1552962AB27F50A495FFD@AdobeOrg"
+}

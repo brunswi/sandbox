@@ -6,6 +6,9 @@
 
 $include "./default_filters.any"
 
+# Allow sandbox servlet paths
+/0100 { /type "allow" /method "GET" /url "/bin/sandbox/*" }
+
 # Allow components JSON model
 /0101 { /type "allow" /extension "json" /selectors "model" /path "/content/*" }
 
