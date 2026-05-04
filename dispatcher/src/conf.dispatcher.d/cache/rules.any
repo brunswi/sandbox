@@ -5,3 +5,6 @@
 #
 
 $include "./default_rules.any"
+
+# Do not cache dynamic sandbox servlet responses
+/0100 { /glob "/bin/sandbox/*" /type "deny" }
